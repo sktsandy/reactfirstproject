@@ -1,0 +1,419 @@
+*{ padding:0px;    margin:0px;    box-sizing:border-box }
+
+.header{
+    background :#fff;
+}
+
+.navbar_custom{
+    margin-left: auto;
+}
+.nav-brand{
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF7133;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a_active{
+    border-bottom: 2px solid #FF7133;;
+}
+
+.nav_link_a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.nav_link_a:hover{
+    color: #484848;
+}
+
+.common_page_wrapper img{
+    width: 100%;
+    height: auto;
+}
+.common_page_wrapper{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.common_page_wrapper h1{
+    margin-top: 90px;
+    font-size: 40px;
+    color: #484848;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.common_page_wrapper h2{
+    font-size: 14px;
+    color: #484848;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.common_page_wrapper span{
+    color: #3498db;
+    font-family: 'Roboto', sans-serif;
+}
+
+.common_page_wrapper button{
+    padding: 10px 30px;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.common_page_wrapper button:hover{
+    background: #3498db;
+    color: #fff;
+}
+.image_animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+      transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+}
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+  }
+  }
+
+
+  /********  Services page css ******/
+  .card_wrapper{
+      margin-top: 50px;
+      margin-left: 45px;
+      margin-right: 45px;
+  }
+  .custom_card_class{
+      width: 300px;
+      margin: 20px;
+  }
+
+  .custom_card_class:hover{
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
+  .Card_img img{
+      width: 100%;
+      height: 250px;
+  }
+
+  .card_btn{
+      margin-left: 60px;
+  }
+
+  .text_line {
+    width: 200px;
+    height: 3px;
+    background: #FF7133;
+    text-align: center;
+}
+
+
+/****contact page scc *****/
+
+.contact_section{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact_section input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact_section textarea{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    margin: 10px;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.contact_btn{
+    padding: 10px 30px;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.contact_btn:hover{
+    background: #3498db;
+    color: #fff;
+}
+
+.disc_line {
+    width: 160px;
+    height: 3px;
+    background: #FF7133;
+    text-align: center;
+}
+
+.contact_section img{
+    width: 100%;
+    height: 360px;
+}
+
+
+/********* Our Team css ***/
+.tab_btn button{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #FF7133;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.categery_holder {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tab_btn button:hover{
+    background: #3498db;
+    color: #fff;
+}
+
+.tab_btn{
+   margin-left: 150px;
+}
+
+.tab_img{
+    width:150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.tab_img img{
+    width: 150px;
+    height: 150px;
+}
+
+.tabs_gallery{
+    border: 1px solid #ccc;
+    margin: 25px;
+}
+.person_info{
+    padding: 20px;
+    text-align: center;
+}
+
+.person_info h3{
+    font-size: 22px;
+    color: #484848;;
+}
+
+.person_info p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.tabs_gallery:hover{
+box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+transform: scale(1.05);
+transition: 0.5s;
+}
+
+.tab_text_line{
+    width: 245px;
+    margin-bottom: 45px;
+    height: 3px;
+    background: #FF7133;
+}
+/**** slider css ***/
+.slider_wrapper{
+    position: relative;
+}
+.slider_wrapper img{
+    width: 100%;
+}
+
+.slider_contant{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.slider_contant_inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel .thumbs {
+    display: none;
+}
+
+.slider_contant_inner h3{
+    font-size: 40px;
+    color: #FF7133;
+}
+.carousel .carousel-status {
+    display: none;
+}
+
+
+/**** collapse css ****/
+
+.main_collapse_wrapper{
+    margin-top: 50px;
+    padding: 50px;
+}
+.main_collapse_wrapper h2 {
+    padding-left: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #484848;
+    letter-spacing: 2px;
+}
+
+.main_collapse_wrapper h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.main_collapse_wrapper p{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.MuiAccordionSummary-root {
+    background: #fff !important;
+}
+
+.main_collapse_wrapper img{
+    width:100%;
+}
+.MuiAccordion-root {
+    position: inherit !important;
+}
+.MuiPaper-elevation1 {
+    box-shadow: none !important;
+}
+
+.main_collapse_wrapper .MuiSvgIcon-root {
+    border: 1px solid;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+/******* footer component css  ****/
+
+.footer{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer h3{
+    color: #FF7133;
+    font-size: 16px;
+}
+
+.footer span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.footer p{
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+
+.footer_first_section .MuiSvgIcon-root{
+    color: #FF7133;
+}
+
+.footer_second_section{
+    margin-left: 100px;
+}
+
+.footer_thrid_section .MuiSvgIcon-root{
+    margin-left: 8px;
+    margin-bottom: 25px;
+}
+
+.footer_thrid_section .MuiButton-contained {
+    background-color: #FF7133 !important;
+    color: #fff;
+}
+
+.footer hr{
+    background: #fff;
+    opacity: 100%;
+}
+
+.social_icons .MuiSvgIcon-root {
+    border: 1px solid #FF7133;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #FF7133;
+    padding: 5px;
+    margin: 10px;
+    font-size: 30px;
+}
